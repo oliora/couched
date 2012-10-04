@@ -10,8 +10,6 @@ Save documents from CouchDB instance to the disk.
 
 Usage: `couch-save [options] <target_dir> <db_name> [<db_server>]`
 
-Run `couch-save -h` for more options.
-
 Documents are saved in UTF-8 encoded JSON files.
 
 ### couch-load
@@ -20,9 +18,10 @@ Load a set of documents from the disk to CouchDB instance.
 
 Simple usage: `couch-load [options] <docs_dir> <db_name> [<db_server>]`
 
-Run `couch-load -h` for more options.
-
 Documents should be UTF-8 encoded JSON files.
+
+**Note that you can run any tool with `-h` parameter to see more options.**
+
 
 ## Installation
 
