@@ -2,6 +2,8 @@
 
 This package provides a (very limited) set of command-line utils to manipulate [CouchDB](http://couchdb.apache.org/) database.
 
+Author & maintainer: Andrey Upadyshev <<oliora@gmail.com>>.
+
 ## What's Included
 
 ### couch-save
