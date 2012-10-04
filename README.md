@@ -1,7 +1,7 @@
 Couched Python Library
 ======================
 
-This package provides a (very limited) set of command-line utils to manipulate CouchDB database.
+This package provides a (very limited) set of command-line utils to manipulate [CouchDB](http://couchdb.apache.org/) database.
 
 Contains the following tools:
 * `couch-load`: load a set of documents from the disk to CouchDB instance.
