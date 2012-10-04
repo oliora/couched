@@ -4,10 +4,10 @@ Couched Python Library
 This package provides a set of command-line utils to manipulate CouchDB database.
 
 Contains the following tools:
-* ``couch-load``: load a set of documents from the disk to CouchDB instance.
-* ``couch-save``: save documents from CouchDB instance to the disk.
+* `couch-load`: load a set of documents from the disk to CouchDB instance.
+* `couch-save`: save documents from CouchDB instance to the disk.
 
-For more help, run a tool with ``-h`` parameter.
+For more help, run a tool with `-h` parameter.
 
 Installation
 ------------
@@ -20,7 +20,7 @@ Prerequisites
 -------------
 
 * Python >= 2.7
-* [couchdb-python](http://code.google.com/p/couchdb-python/) >= 0.7 (will be installed automatically)
+* [couchdb-python](http://code.google.com/p/couchdb-python/) >= 0.7 (will be installed automatically by `pip`)
 
 Bug Reporting
 -------------
