@@ -15,7 +15,7 @@ Installation
 
 Use [pip](http://www.pip-installer.org/en/latest/installing.html) for installation:
 
-`pip install https://github.com/downloads/oliora/couched/Couched-0.1.0.egg`
+`pip install https://github.com/downloads/oliora/couched/Couched-0.1.0.zip`
 
 
 Prerequisites
