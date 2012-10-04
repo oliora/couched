@@ -1,14 +1,12 @@
-try:
-    from setuptools import setup
-except ImportError:
-    print "WARNING: setuptools/distribute not available. Console scripts will not be installed."
-    from distutils.core import setup
+from setuptools import setup
+import sys
 
 
-try:
-    LONG_DESCRIPTION = open('README.txt').read()
-except:
-    LONG_DESCRIPTION = ""
+if sys.version < "2.7":
+    raise Exception("Couched needs Python 2.7 or above")
+
+
+LONG_DESCRIPTION = open('README.txt').read()
 
 CLASSIFIERS = [
     'Development Status :: 4 - Beta',
@@ -17,7 +15,6 @@ CLASSIFIERS = [
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Topic :: Database :: Front-Ends',
-    'Topic :: Software Development :: Libraries :: Python Modules',
 ]
 
 
@@ -42,5 +39,5 @@ setup(
     install_requires=[
         "couchdb >= 0.7.0",
     ],
-    #'zip_safe': True, ???
+    zip_safe = True,
 )
