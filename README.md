@@ -1,37 +1,47 @@
-Couched Python Library
-======================
+# Couched Python Library
 
 This package provides a (very limited) set of command-line utils to manipulate [CouchDB](http://couchdb.apache.org/) database.
 
-Contains the following tools:
-* `couch-load`: load a set of documents from the disk to CouchDB instance.
-* `couch-save`: save documents from CouchDB instance to the disk.
+## What's Included
 
-For more help, run a tool with `-h` parameter.
+### couch-save
 
+Save documents from CouchDB instance to the disk. 
 
-Installation
-------------
+Usage: `couch-save [options] <target_dir> <db_name> [<db_server>]`
+
+Run `couch-save -h` for more options.
+
+Documents are saved in UTF-8 encoded JSON files.
+
+### couch-load
+
+Load a set of documents from the disk to CouchDB instance.
+
+Simple usage: `couch-load [options] <docs_dir> <db_name> [<db_server>]`
+
+Run `couch-load -h` for more options.
+
+Documents should be UTF-8 encoded JSON files.
+
+## Installation
 
 Use [pip](http://www.pip-installer.org/en/latest/installing.html) for installation:
 
 `pip install https://github.com/downloads/oliora/couched/Couched-0.1.0.zip`
 
 
-Prerequisites
--------------
+## Prerequisites
 
 * Python >= 2.7
 * [couchdb-python](http://code.google.com/p/couchdb-python/) >= 0.7 (will be installed automatically by _pip_)
 
 
-Bug Reporting
--------------
+## Bug Reporting
 
 Use [issue tracker](https://github.com/oliora/couched/issues).
 
 
-Contributing
-------------
+## Contributing
 
 Fork it, commit changes and create a pull request. Thank you!
