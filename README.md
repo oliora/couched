@@ -29,7 +29,7 @@ Documents should be UTF-8 encoded JSON files.
 
 Use [pip](http://www.pip-installer.org/en/latest/installing.html) for installation:
 
-`pip install https://github.com/downloads/oliora/couched/Couched-0.1.0.zip`
+`pip install git+git://github.com/oliora/couched.git@v0.1`
 
 
 ## Prerequisites
