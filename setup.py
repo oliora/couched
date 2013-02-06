@@ -20,7 +20,7 @@ CLASSIFIERS = [
 
 setup(
     name='Couched',
-    version='0.1.0',
+    version='0.1',
     author='Andrey Upadyshev',
     author_email='oliora@gmail.com',
     packages=['couched'],

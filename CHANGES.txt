@@ -1,6 +1,11 @@
 ``Couched`` Changes List
 ========================
 
+0.1 (2013.02.06)
+----------------
+
+Version number updated. Installation instruction changed to use installation from source.
+
 0.1.0 (2012.10.03)
 ------------------
 
