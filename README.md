@@ -20,7 +20,7 @@ Load a set of documents from the disk to CouchDB instance.
 
 Simple usage: `couch-load [options] <docs_dir> <db_name> [<db_server>]`
 
-Documents should be UTF-8 encoded JSON files.
+Documents should be UTF-8 encoded JSON files with **json** extension.
 
 **Run any tool with `-h` parameter to get all possible options.**
 
